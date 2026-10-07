@@ -1,0 +1,58 @@
+:root{--ink:#29251f;--cream:#f7f1e8;--sand:#e5d2b6;--rust:#aa5c3d;--olive:#697062;--line:rgba(41,37,31,.17)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.hero{min-height:820px;position:relative;overflow:hidden;background:#e8dac6}nav{height:86px;width:min(1300px,calc(100% - 54px));margin:auto;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:3}.logo{font:700 28px "Playfair Display",serif;letter-spacing:-1.5px}.logo i{color:var(--rust);font-style:normal}.links{display:flex;align-items:center;gap:29px;font-size:13px;font-weight:600}.links a:not(.book-link){opacity:.75}.book-link{background:var(--ink);color:#fff;padding:12px 17px;border-radius:100px}.menu{display:none;background:none;border:0;font-size:23px}.hero-copy{position:relative;z-index:2;width:min(1300px,calc(100% - 54px));margin:120px auto 0}.kicker{font-size:10px;letter-spacing:2px;font-weight:700;color:var(--rust);margin:0 0 18px}.hero h1,.manifesto h2,.services h2,.about h2,.lookbook h2,.booking h2{font:600 clamp(54px,7.4vw,106px)/.94 "Playfair Display",serif;letter-spacing:-4px;margin:0}.hero h1 em,.lookbook h2 em{font-style:italic;color:var(--rust)}.intro{max-width:320px;line-height:1.6;font-size:16px;margin:28px 0}.button{display:inline-flex;gap:31px;align-items:center;background:var(--rust);color:#fff;border-radius:100px;padding:16px 21px;font-size:13px;font-weight:700}.button span{font-size:19px}.hero-image{position:absolute;width:min(48%,650px);right:4%;top:86px;bottom:0;overflow:hidden}.hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#e8dac6 0%,transparent 18%,transparent 80%,rgba(75,45,22,.1))}.hero-image img{width:100%;height:100%;object-fit:cover;object-position:center top}.hero-note{position:absolute;right:7%;bottom:35px;z-index:2;display:flex;align-items:start;gap:12px;color:white}.hero-note span{font:600 15px "Playfair Display",serif;border-bottom:1px solid white;padding-bottom:5px}.hero-note p{font:italic 16px/1.1 "Playfair Display",serif;margin:2px 0}.manifesto{padding:150px 8%;text-align:center;background:#fcfaf6}.manifesto h2{font-size:clamp(48px,6vw,80px)}.manifesto>p:not(.kicker){max-width:440px;margin:28px auto;color:#676159;line-height:1.7}.service-pills{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:38px}.service-pills span{border:1px solid var(--line);border-radius:50px;padding:11px 15px;font-size:12px}.services{display:grid;grid-template-columns:.8fr 1.2fr;gap:10%;padding:125px 8%;background:#d8c5a7}.services h2,.about h2{font-size:clamp(46px,5vw,72px)}.description{max-width:300px;line-height:1.65;color:#5e574d;margin:25px 0}.text-link{font-size:13px;font-weight:700;border-bottom:1px solid var(--ink);padding-bottom:5px}.service-list article{display:grid;grid-template-columns:38px 1fr auto;gap:15px;border-top:1px solid var(--line);padding:23px 0}.service-list article:last-child{border-bottom:1px solid var(--line)}.service-list span{font:italic 17px "Playfair Display",serif;color:var(--rust)}h3{font:600 25px "Playfair Display",serif;margin:0;letter-spacing:-.8px}.service-list p{margin:6px 0 0;font-size:12px;color:#60594f}.service-list strong{font-size:12px;padding-top:8px}.about{display:grid;grid-template-columns:1fr 1fr;background:#fbf8f1;min-height:590px}.about-photo{background:linear-gradient(rgba(0,0,0,.08),rgba(0,0,0,.08)),url('owner-hero.png') center/cover}.about-copy{padding:115px 15%;align-self:center}.about-copy>p:not(.kicker){line-height:1.7;color:#5d564d;max-width:340px}.about-copy .text-link{display:inline-block;margin-top:16px}.lookbook{padding:115px 6%}.lookbook-head{display:grid;grid-template-columns:1fr 1.2fr 1fr;align-items:end;margin-bottom:54px}.lookbook h2{font-size:clamp(45px,5.5vw,76px)}.lookbook-head .text-link{text-align:right}.look-grid{display:grid;grid-template-columns:1.1fr .8fr 1.1fr;gap:17px;min-height:500px}.look{position:relative;background-color:#cab08d;background-size:cover;background-position:center}.look span{position:absolute;left:15px;bottom:13px;color:white;text-shadow:0 1px 7px #333;font:italic 18px "Playfair Display",serif}.one{background-image:linear-gradient(#0002,#0002),url('owner-hero.png');background-position:64%}.two{background:linear-gradient(160deg,#a88a6b 0%,#d8c19d 45%,#493d32 100%)}.three{background:linear-gradient(145deg,#46352b 0%,#a16d4c 37%,#ead0b2 100%)}.booking{padding:120px 20px;text-align:center;background:var(--olive);color:#fff}.booking .kicker{color:#e7d3b0}.booking h2{font-size:clamp(50px,6vw,82px);letter-spacing:-3px}.booking>p:not(.kicker){max-width:360px;margin:25px auto 31px;line-height:1.6;color:#e8e4de}.button.light{background:#f7f1e8;color:var(--ink)}footer{display:flex;justify-content:space-between;align-items:center;padding:30px 5%;background:#29251f;color:#f7f1e8}footer .logo{font-size:24px}footer p,footer div{font-size:11px;color:#c7c1b8}footer div{display:flex;gap:20px}@media(max-width:760px){.links{display:none}.menu{display:block}.hero{min-height:840px}.hero-copy{margin-top:67px}.hero-image{width:72%;right:-4%;top:482px;bottom:0}.hero-image:after{background:linear-gradient(90deg,#e8dac6 0%,transparent 28%)}.hero h1{font-size:clamp(44px,13vw,61px);letter-spacing:-2.5px}.hero-note{display:none}.services,.about{grid-template-columns:1fr}.services{gap:55px;padding:75px 8%}.about-photo{min-height:470px}.about-copy{padding:70px 10%}.lookbook-head{display:block}.lookbook-head .text-link{display:inline-block;margin-top:25px}.look-grid{grid-template-columns:1fr 1fr;min-height:620px}.look.three{display:none}footer{align-items:start;gap:20px;flex-direction:column}}
+
+/* Mobile menu (opened by the ☰ button) */
+.menu{color:inherit;cursor:pointer;padding:9px;margin:-9px}
+@media(max-width:760px){
+  nav.open .links{display:flex;position:absolute;top:76px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:8px;background:#fcfaf6;border:1px solid var(--line);border-radius:18px;box-shadow:0 18px 40px rgba(41,37,31,.14);font-size:15px;animation:menu-in .18s ease-out}
+  nav.open .links a:not(.book-link){opacity:1;padding:14px 12px;border-bottom:1px solid var(--line)}
+  nav.open .links a:nth-last-child(2){border-bottom:0}
+  nav.open .book-link{margin-top:8px;text-align:center;padding:14px 17px}
+}
+@keyframes menu-in{from{opacity:0;transform:translateY(-6px)}}
+@media(prefers-reduced-motion:reduce){nav.open .links{animation:none}}
+
+/* Appointment steps — the illustration holds still while the four steps scroll past it.
+   The stage is 58vh tall and sits 21vh down, which is exactly where each step's text
+   lands, so the two columns stay level with each other from the first step to the last. */
+.process{--panel:58vh;--panel-top:21vh;background:#342a21;color:var(--cream);padding:120px 8% 130px}
+@supports(height:1dvh){.process{--panel:58dvh;--panel-top:21dvh}}
+.process .kicker{color:#e0b893}
+.process h2{font:600 clamp(44px,5.2vw,74px)/.96 "Playfair Display",serif;letter-spacing:-3px;margin:0}
+.process h2 em{font-style:italic;color:#e0b893}
+.process-head{margin-bottom:44px}
+.process-body{display:grid;grid-template-columns:minmax(260px,.95fr) 1.05fr;gap:6%}
+.process-stage{position:sticky;top:var(--panel-top);height:var(--panel);align-self:start;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.art-frame{position:relative;width:min(380px,calc(var(--panel) - 80px),100%);aspect-ratio:1;border:1px solid rgba(247,241,232,.22);border-radius:26px;background:rgba(247,241,232,.04)}
+.art{position:absolute;left:16%;top:16%;width:68%;height:68%;opacity:0;transform:scale(.94);transition:opacity .2s ease,transform .3s ease}
+.art.is-active{opacity:1;transform:none;transition:opacity .35s ease .18s,transform .45s ease .18s}
+.counter{font:italic 19px "Playfair Display",serif;color:rgba(247,241,232,.5);margin:0}
+.counter .count-now{font-style:normal;font-weight:600;font-size:29px;color:var(--cream)}
+.track{width:min(380px,calc(var(--panel) - 80px),100%);height:2px;background:rgba(247,241,232,.18);overflow:hidden}
+.track span{display:block;height:100%;background:#e0b893;transform:scaleX(0);transform-origin:left;transition:transform .12s linear}
+.process-steps{list-style:none;margin:0;padding:0}
+.step{min-height:var(--panel);display:flex;flex-direction:column;justify-content:center;gap:12px;opacity:.3;transition:opacity .45s ease}
+.step.is-active{opacity:1}
+.step-num{font:italic 16px "Playfair Display",serif;color:#e0b893;border-top:1px solid rgba(247,241,232,.22);padding-top:17px}
+.process h3{font:600 clamp(28px,3.1vw,38px)/1.08 "Playfair Display",serif;letter-spacing:-1.2px;margin:0}
+.step p{margin:0;max-width:470px;line-height:1.75;color:#d7ccbd}
+@media(max-width:760px){
+  .logo{padding:9px 0;margin:-9px 0}
+  .text-link{display:inline-block;padding:11px 0;margin:-11px 0}
+  .process{padding:74px 8% 76px}
+  .process-head{margin-bottom:20px}
+  .process-body{display:block}
+  .process-stage{top:0;flex-direction:row;align-items:center;height:auto;gap:15px;padding:14px 0 15px;background:#342a21;border-bottom:1px solid rgba(247,241,232,.14);z-index:4}
+  .art-frame{flex:0 0 84px;width:84px;border-radius:18px}
+  .counter{font-size:15px}
+  .counter .count-now{font-size:22px}
+  .track{flex:1;width:auto}
+  .step{min-height:52vh}
+}
+/* No animation for visitors whose device asks for reduced motion: all four steps shown at once */
+@media(prefers-reduced-motion:reduce){
+  .process-stage{position:static;display:block;height:auto;padding:0;border-bottom:0;margin-bottom:34px}
+  .art-frame{width:100%;aspect-ratio:auto;display:flex;justify-content:space-around;gap:14px;padding:20px}
+  .art{position:static;width:58px;height:58px;opacity:1;transform:none;transition:none}
+  .counter,.track{display:none}
+  .step{min-height:0;padding:26px 0;opacity:1;transition:none}
+}
